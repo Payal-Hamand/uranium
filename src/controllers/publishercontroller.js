@@ -1,5 +1,5 @@
 
-const PublisherModel = require("../models/publisher")
+const PublisherModel = require("../models/batchModel")
 
 const createPublisher= async function (req, res) {
     let publish = req.body
